@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title> Meeting Minutes </title>
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <h1>First Meeting</h1>
+            <h2> Meeting Everyone and First Brainstorm</h2>
+            <h2>April 13th 2023</h2>
+            <h3>Attendance</h3>
+            <ul>
+                <li><b>Kyle</b></li>
+                <li>Ben</li>
+                <li>Dave</li>
+            </ul>
+        <h3>Agenda</h3>
+            <nav>
+                <ol>
+                    <li><a href="#introductions">Introductions</a></li>
+                    <li><a href="#team roles">Team Roles</a></li>
+                    <li><a href="#brainstorming">Brainstorming</a></li>
+                    <li><a href="#questions">Questions</a></li>
+                </ol>
+            </nav>
+        </header>
+
+        <main>
+            <h3 id="introductions">Introductions</h3>
+            <p>
+                Everyone introduced themselves along with their previous knowledge
+                in <br>Software Engineering and a few of their own interests.</br>
+            </p>
+            <details>
+                <summary>Details</summary>
+                Some extra details about the intro
+            </details>
+
+            <h3 id="team roles">Team Roles</h3>
+            <ul>
+                <li><strong>Kyle</strong> (<i>Developer</i>)</li>
+                <li>Ben (Designer)</li>
+                <li>Dave (Leader)</li>
+
+            </ul>
+
+            <h3 id="brainstorming">Brainstorming</h3>
+            <div>
+                People came up with ideas of what the <span>group project</span> will be.
+                One of the best ideas was to do a <em>To Do List</em>.
+            </div>
+            <img src="images/todolist.jpeg" width = "600" height = "400" alt="ToDoList" />
+
+            <h3 id="questions">Questions</h3>
+            <p>
+                Some questions were asked and answered. Here is the audio and 
+                video recording of the meeting:
+            </p>
+
+            <video width="300" height="200" controls autoplay>
+                <source src="test-video.mp4" type="video/mp4" />
+                This video is what happened in the meeting
+            </video>
+
+            <audio controls autoplay> 
+                <source src="test-meeting.mp3" type="audio/mpeg">
+                Audio about what happened in the meeting
+            </audio>
+            
+        </main>
+
+        <section>
+            <p>Here is a section about random stuff not related to above topics</p>
+
+            <label for="drink-choice">Choose your favorite drink:</label>
+            <input list="drink-flavors" id="drink-choice" name="drink-choice">
+
+            <datalist id="drink-flavors">
+                <option value="Matcha Latte">
+                <option value="Boba Milk Tea">
+                <option value="Coffee">
+            </datalist>
+
+            <label for="foods">Choose your favorite food</label>
+
+            <select name="foods" id="foods">
+                <option value="ramen">Ramen</option>
+                <option value="kbbq">Kbbq</option>
+                <option value="tacos">Tacos</option>
+            </select>
+
+        </section>
+
+        <footer>
+            <h3 id="subscribe">Subscribe</h3>
+            <form>
+                <fieldset>
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                    <button>Submit</button>
+                </fieldset>
+            </form>
+
+            <label for="First Meeting"> <h3>Review of First Meeting:</h3></label>
+            <textarea id="First Meeting" name="First Meeting" rows="5" cols="60">This website is here to represent an example of meeting minutes.</textarea>
+
+        </footer>
+
+    
+    </body>
+    
+</html>
