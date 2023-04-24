@@ -100,10 +100,6 @@ nav{
     min-width: 800px;
 }
 
-button:hover{
-    color: red;
-}
-
 a:active{
     background-color: yellow;
 }
@@ -120,4 +116,31 @@ a:active{
 }
 * {
     font-family: 'Montserrat', serif;
+}
+
+a[target]{
+    background-color: yellow;
+}
+
+a:hover, button:hover{
+    color:hotpink;
+}
+
+div p{
+    color:brown;
+}
+
+div > p{
+    color:red;
+}
+
+div + p + p{
+    color:green;
+}
+div ~ p{
+    color: purple;
+}
+
+h1 em{
+    color: blue;
 }
