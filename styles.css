@@ -1,0 +1,123 @@
+/* style the header */
+header{
+    margin: 5px;
+    color: hsl(0, 20%, 68%)
+}
+/* style for body */
+body{
+    background-color:rgb(181, 211, 238)
+}
+/* style for main */
+main{
+    color: #000;
+    margin: 15px;
+}
+/* style for unordered lists */
+ul{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 4;
+    align-self: auto;
+    gap: 30px 30px;
+}
+
+/* style for ordered lists */
+ol{
+    margin-top: .5cm;
+    margin-bottom: .5cm;
+    margin-left: 8mm;
+    margin-right: 1mm;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: .5vw;
+    padding-right: .5vw;
+}
+
+/* style for navigation */
+nav{
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+}
+
+.Attendance{
+    display:block;
+    position: static;
+    border-radius: 2%;
+    border-width: 5px;
+    color: rgb(0, 60, 255);
+    border-color:aqua;
+    border-style:groove;
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+}
+/* style for video */
+.Video{
+    border-style:double;
+    border-bottom-style:hidden;
+    border-color: #000;
+    border-width: 1vh;
+    border-radius: 1px;
+    position:relative;
+}
+
+/* style for audio */
+.Audio{
+    border-style:double;
+    border-color: #000;
+    border-width: 1vh;
+    border-radius: 1px;
+}
+
+/* style for intro paragraph */
+.Introduction{
+    text-align: center;
+    color:rgb(12, 12, 20);
+    display:block;
+}
+
+/* name underlined red */
+.name{
+    text-decoration: underline red;
+}
+
+.Questions{
+    display: inline-block;
+}
+
+.grid-container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+    grid-template-rows: auto;
+}
+
+#Text{
+    height: 10px;
+    width: 10px;
+    max-width: 1400px;
+    min-width: 800px;
+}
+
+button:hover{
+    color: red;
+}
+
+a:active{
+    background-color: yellow;
+}
+
+@media screen and (max-width: 400px){
+    body{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 1400x){
+    body{
+        font-size: 20px;
+    }
+}
+* {
+    font-family: 'Montserrat', serif;
+}
